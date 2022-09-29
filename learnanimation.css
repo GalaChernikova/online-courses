@@ -1,0 +1,54 @@
+.links-list li a:hover,
+.footer .info li a:hover {
+    font-weight: 600;
+}
+
+.sign-in button:hover {
+    background-color: #2378FF;
+    color: #FFFFFF;
+}
+
+.discover .content .info button:hover,
+.video .content .info button:hover {
+    border: 1px solid #F77E53;
+    background-color: #FEE6DC;
+    color: #F77E53;
+}
+
+.partners .content .partners-list-links li:hover {
+    box-shadow: 0px 20px 35px -5px rgba(0, 0, 0, 0.05); 
+}
+
+.courses .content .title button:hover,
+.courses .content .course-boxes .course-box button:hover,
+.plans .content .title button:hover {
+    background-color: #E8F1FF;
+    border: none;
+}
+
+.review .content .title button:hover {
+    color: #2378FF;
+}
+
+.plans .content .plan-boxes .box:hover {
+   box-shadow: 0px 20px 35px -5px rgba(0, 0, 0, 0.08); 
+}
+
+.plans .content .plan-boxes .regular button:hover {
+    background-color: #2378FF;
+    color: #FFFFFF;
+}
+
+.plans .content .plan-boxes .medium button:hover {
+    background-color: #F6C07A;
+    color: #FFFFFF;
+}
+
+.plans .content .plan-boxes .premium button:hover {
+    background-color: #F77E53;
+    color: #FFFFFF;
+}
+
+.footer .info .app .app-links li:hover {
+    box-shadow: 0px 20px 35px -5px rgba(0, 0, 0, 0.08); 
+}

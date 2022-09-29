@@ -1,0 +1,389 @@
+@media (max-width: 1300px) {
+    .header,
+    .footer,
+    .discover,
+    .partners,
+    .work,
+    .courses,
+    .video,
+    .review,
+    .plans  {
+        justify-content: space-around;
+    }
+
+    .links {
+        max-width: 600px;
+    }
+
+    .discover .content,
+    .partners .content,
+    .work .content,
+    .courses .content,
+    .video .content,
+    .review .content,
+    .plans .content,
+    .footer .info,
+    .footer .copyright {
+        max-width: 1000px;
+    }
+
+    .partners .content .numbers {
+        max-width: 200px;
+    }
+
+    .partners .content .partners-list-links li {
+        margin: 0 10px;
+    }
+
+    .work .content .info {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .discover .content,
+    .partners .content,
+    .work .content,
+    .review .content {
+        justify-content: center;
+    }
+
+    .discover .content .info {
+        max-width: 400px;
+    }
+
+    .discover .content .info h1 {
+        font-size: 50px;
+    }
+
+    .discover .content .mainpic {
+        max-width: 480px;
+    }
+
+    .partners .content .partners-list {
+        max-width: 600px;
+    }
+
+    .partners .content .partners-list-links {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 600px;
+    }
+
+    .partners .content .partners-list-links li {
+        margin-bottom: 10px;
+    }
+
+    .work .content {
+        max-width: 890px;
+    }
+
+    .work .content .workpic {
+        max-width: 400px;
+    }
+
+    .work .content .info .boxes .box {
+        max-width: 240px;
+    }
+
+    .courses .content {
+        max-width: 880px;
+    }
+
+    .video .content {
+        max-width: 880px;
+    }
+
+    .video .content .info {
+        max-width: 350px;
+    }
+
+    .video .content .video-prev {
+        max-width: 480px;
+    }
+
+    .review .content {
+        max-width: 880px;
+    }
+
+    .review .content .title {
+        justify-content: flex-start;
+    }
+
+    .review .content .title .buttons {
+        margin-left: 50px;
+    }
+
+    .review .content .rev-boxes .box {
+        max-width: 400px;
+    }
+
+    .plans .content {
+        max-width: 800px;
+    }
+
+    .plans .content .title {
+        max-width: 700px;
+    }
+
+    .plans .content .plan-boxes {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .plans .content .plan-boxes .box {
+        margin-bottom: 30px;
+    }
+
+    .footer .info,
+    .footer .copyright {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .links-list,
+    .sign-in {
+        display: none;
+        width: 0;
+    }
+
+    .nav-button {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .sign-mob {
+        display: block;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .discover .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .discover .content .info {
+        max-width: 500px;
+    }
+
+    .discover .content .mainpic {
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .partners .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partners .content .numbers {
+        max-width: 215px;
+        margin-bottom: 30px;
+    }
+
+    .partners .content .partners-list {
+        max-width: 500px;
+    }
+
+    .work .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work .content .info {
+        max-width: 500px;
+    }
+
+    .courses .content {
+        max-width: 650px;
+    }
+
+    .courses .content .course-boxes {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .courses .content .course-boxes .course-box {
+        margin-bottom: 20px;
+    }
+
+    .video .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .video .content .info {
+        max-width: 400px;
+    }
+
+    .video .content .video-prev {
+        margin-bottom: 30px;
+    }
+
+    .review .content .title {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .review .content .title h2 {
+        margin-bottom: 10px;
+    }
+
+    .review .content .title .buttons {
+        margin-left: 0;
+    }
+
+    .review .content .rev-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review .content .rev-boxes .box {
+        margin-bottom: 50px;
+    }
+
+    .plans .content .title {
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .plans .content .title h2 {
+        margin-bottom: 20px;
+    }
+
+    .plans .content .plan-boxes {
+        max-width: 400px;
+    }
+
+    .footer .info,
+    .footer .copyright {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer .info {
+        flex-wrap: wrap;
+    }
+
+    .footer .info,
+    .footer .copyright {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .discover .content .info {
+        max-width: 400px;
+    }
+
+    .discover .content .mainpic {
+        max-width: 400px;
+    }
+
+    .partners .content .partners-list-links {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .work .content .info {
+        max-width: 300px;
+    }
+
+    .courses .content {
+        max-width: 300px;
+    }
+
+    .courses .content .title {
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 30px;
+    }
+
+    .courses .content .title h2 {
+        margin-bottom: 20px;
+    }
+
+    .video .content .info {
+        max-width: 400px;
+    }
+
+    .video .content .video-prev {
+        max-width: 400px;
+    }
+
+    .video .content .info p {
+        max-width: 380px;
+    }
+
+    .footer .info,
+    .footer .copyright {
+        max-width: 300px;
+    }
+
+    .ft-logo,
+    .about,
+    .support {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .discover .content .info {
+        max-width: 300px;
+    }
+
+    .discover .content .info h1 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .discover .content .mainpic {
+        max-width: 300px;
+    }
+
+    .work .content .workpic {
+        max-width: 300px;
+    }
+
+    .video .content .info {
+        max-width: 300px;
+    }
+
+    .video .content .video-prev {
+        max-width: 300px;
+    }
+
+    .video .content .info p {
+        max-width: 280px;
+    }
+
+    .review .content .title {
+        max-width: 300px;
+    }
+
+    .review .content .rev-boxes .box {
+        max-width: 280px;
+    }
+
+    .plans .content .title {
+        max-width: 300px;
+    }
+
+    .plans .content .plan-boxes .box {
+        max-width: 280px;
+    }
+}
