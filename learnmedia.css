@@ -240,6 +240,7 @@
 
     .review .content .title .buttons {
         margin-left: 0;
+        margin-bottom: 30px;
     }
 
     .review .content .rev-boxes {
